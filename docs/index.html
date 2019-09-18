@@ -12,7 +12,7 @@
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
         <a-assets>
-            <a-asset-item id="animated-asset" src="https://olivaluno.github.io/Terminale/assets/endcity.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset" src="https://olivaluno.github.io/Terminale/assets/endcity1.gltf"></a-asset-item>
         </a-assets>
 
         <a-marker type='barcode' value='7'>
@@ -20,7 +20,7 @@
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='6'>
-            <a-entity gltf-model="#animated-asset"scale="1 1 1"></a-entity>
+            <a-entity gltf-model="#animated-asset"scale="25 25 25"></a-entity>
         </a-marker>
 
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
